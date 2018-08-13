@@ -10,3 +10,4 @@
 .wget-hsts
 env/
 models/*
+*.pyc
