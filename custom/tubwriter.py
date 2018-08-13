@@ -14,5 +14,6 @@ class TubWriter(Tub):
         to disk.
         """
         assert len(self.inputs) == len(args)
-        record = dict(zip(self.inputs, args))
-        self.put_record(record)
+        if(self.inputs[1]>0):
+            record = dict(zip(self.inputs, args))
+            self.put_record(record)
