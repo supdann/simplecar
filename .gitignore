@@ -12,3 +12,9 @@ env/
 models/*
 *.pyc
 tub/*
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.nano/
+*.tar
